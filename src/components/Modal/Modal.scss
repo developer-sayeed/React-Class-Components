@@ -6,12 +6,15 @@
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 9;
   background-color: rgba(0, 0, 0, 0.152);
+
   .modal-wraper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+
     .modal-main {
       width: 600px;
       padding: 15px;

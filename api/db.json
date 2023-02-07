@@ -1,60 +1,11 @@
 {
   "team": [
     {
-      "name": "Shimul Rahaman ",
-      "skill": "MERN Stack Devs",
-      "location": "Jeddah",
-      "age": "35",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRasioyFiZec2m_9EbIsFHoW15yGVEhk3Lj5jz78BjPePKluCKBUBfjT37wy0iszMWkq4g&usqp=CAU",
-      "id": 4
-    },
-    {
-      "name": "Quamar Fu",
-      "skill": "Ut voluptates natus ",
-      "location": "badda",
-      "age": "18",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QE97mrM9yOdEUmEpDKsOj2P3AfxNnUKGZgZ-YVHRC8EdpFDbaSzNKpe6xMvt13xAmhQ&usqp=CAU",
-      "id": 5
-    },
-    {
-      "name": "Zorita Allen",
-      "skill": "Wordpress",
-      "location": "Non fuga Consequatu",
-      "age": "20",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxW1PBtaa8QkvvIQvXoddlMMH2D7uV0GNlQRvGZpuDVElBwzCHeVuun1qoFqMBrbNyG6g&usqp=CAU",
-      "id": 6
-    },
-    {
-      "name": "Rashad Potts",
-      "skill": "Php",
-      "location": "Badda",
-      "age": "28",
-      "photo": "https://images.unsplash.com/photo-1597204081767-4c14a6b7cbec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2luZ2xlJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "id": 7
-    },
-    {
-      "name": "Chiquita Acevedo",
-      "skill": "Java",
-      "location": "Comilla",
-      "age": "45",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWK1KI8gOoeA6ZyIiqKjPPEvMNJH_gRPWVxLCIqM0G2YKraH3lHpb1e9_wkcLvurbCEc&usqp=CAU",
-      "id": 8
-    },
-    {
-      "name": "Colton Castro",
-      "skill": "Laravel",
-      "location": "Dhaka",
-      "age": "35",
-      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqhT3ejoq3X5EtfsDddoa5KU9Y_UQckYDI3q4aL8jhZu_PeAMCd-Eqw6bvUC7QpFoEXI&usqp=CAU",
-      "id": 9
-    },
-    {
-      "name": "Sebastian Richards",
-      "skill": "Eum dolorem non volu",
-      "location": "React Js",
-      "age": "55",
-      "photo": "https://team-members-allocation.vercel.app/assets/Bob.f3e400e7.jpg",
-      "id": 10
+      "name": "abu sayeed riday",
+      "username": "abusayeed",
+      "email": "abusayeedriday@gmail.com",
+      "profile": "https://png.pngitem.com/pimgs/s/25-253341_gord-gillies-hd-png-download.png",
+      "post": "koremghjkhy fgguhj ghhjhjh yklkkj ikjkjkuj "
     }
   ]
 }
