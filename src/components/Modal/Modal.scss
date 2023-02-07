@@ -1,0 +1,48 @@
+.modal-blur {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.152);
+  .modal-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .modal-main {
+      width: 600px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 2px solid #eee;
+        h3 {
+          font-size: 30px;
+          font-weight: 600;
+        }
+        span {
+          font-size: 30px;
+          cursor: pointer;
+        }
+      }
+      .modal-content {
+        padding: 10px 0;
+        h1 {
+          font-size: 30px;
+          line-height: 50px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

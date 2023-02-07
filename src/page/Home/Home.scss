@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// Instra Menu Section Scss
+.instra-home {
+  background-color: #fff;
+  color: #000000;
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  .instra-menu-items {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    .logo {
+      padding: 15px 0;
+      img {
+        height: 50px;
+      }
+    }
+    .menu-list {
+      ul {
+        padding-left: 10px;
+        margin: 0;
+
+        li {
+          list-style: none;
+          display: block;
+          padding: 6px 0;
+          a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 20px;
+            color: #000000;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: capitalize;
+
+            .icon {
+              font-size: 25px;
+              img {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+              }
+            }
+            .menu {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .instra-more-btn {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 10px;
+      .icon {
+        font-size: 25px;
+      }
+      .menu {
+        padding-left: 10px;
+        font-size: 20px;
+        color: #000000;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+// Instra Feed Section Scss
+
+.instra-feed {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto auto 18%;
+  .instra-feed-content {
+    display: flex;
+    justify-content: space-between;
+    .instra-maain-feed {
+      width: 60%;
+      border-left: 1px solid #000;
+      padding: 40px 20px 0 50px;
+      .feed-story {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        .story-list {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          width: 15%;
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid #cd5c5c;
+          }
+        }
+      }
+
+      .instra-post-content {
+        display: flex;
+        flex-direction: column;
+        .top-user-profile {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 0;
+          .feed-profile-left {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 5px;
+            h4 {
+              font-weight: 500;
+              font-size: 20px;
+              padding: 0 5px;
+              margin: 0;
+            }
+            span {
+              font-size: 20px;
+              margin: 0;
+              padding: 0 5px;
+            }
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              border: 2px solid #cd5c5c;
+            }
+          }
+          .feed-profile-right {
+            span {
+              font-size: 25px;
+              font-weight: 600;
+              display: block;
+              cursor: pointer;
+              padding-right: 15px;
+            }
+          }
+        }
+        .instra-post {
+          img {
+            max-width: 100%;
+            height: 400px;
+            border-radius: 5px;
+          }
+        }
+        .instra-react {
+          padding: 8px 5px;
+          .reaction {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+            .react-left {
+              display: flex;
+              justify-content: flex-start;
+              gap: 10px;
+              span {
+                font-size: 25px;
+              }
+            }
+            .react-right {
+              span {
+                font-size: 25px;
+              }
+            }
+          }
+          .likes {
+            span {
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+          .content-text {
+            p {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    .instra-user-profile {
+      padding: 40px 0;
+      width: 35%;
+      .instra-profile-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        .profile-left {
+          display: flex;
+          justify-content: flex-start;
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid#CD5C5C;
+          }
+          span {
+            padding: 0 5px;
+            h5 {
+              font-size: 16px;
+              font-weight: 400;
+              margin: 0;
+            }
+            h3 {
+              font-weight: 600;
+              font-size: 18px;
+              margin: 0;
+            }
+          }
+        }
+        .profile-right {
+          button {
+            background: transparent;
+            border: none;
+            font-weight: 600;
+            color: blue;
+          }
+        }
+      }
+
+      .instra-follower-area {
+        .text {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 0;
+          h2 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 600;
+          }
+          button {
+            background-color: transparent;
+            border: none;
+            color: #000;
+            font-weight: 700;
+          }
+        }
+
+        .instra-suggest-list {
+          display: flex;
+          justify-content: space-between;
+          padding: 6px 0;
+          .suggest-left {
+            display: flex;
+            justify-content: flex-start;
+            img {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              border: 3px solid#CD5C5C;
+            }
+            span {
+              padding: 0 5px;
+              h5 {
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0;
+              }
+              h3 {
+                font-weight: 600;
+                font-size: 18px;
+                margin: 0;
+              }
+            }
+          }
+          .suggest-right {
+            button {
+              background: transparent;
+              border: none;
+              font-weight: 600;
+              color: blue;
+            }
+          }
+        }
+      }
+      .footer-area {
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          padding: 15px 0;
+          li {
+            list-style: none;
+            padding: 0 3px;
+            a {
+              text-decoration: none;
+              color: #000;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}
